@@ -30,11 +30,11 @@ $(TARGET): $(PRECOMPILED) $(OBJECTS)
 
 # precompiled modules
 $(BUILD_DIR)/%.pcm: $(SOURCE_DIR)/%.ccm
-	$(CXX) $(CXXFLAGS) -x c++ -c -MMD $< -o $@
+	$(CXX) $(CXXFLAGS) -x c++ -c $< -o $@
 
 # objects
 $(BUILD_DIR)/%.o: $(SOURCE_DIR)/%.cc
-	$(CXX) $(CXXFLAGS) -x c++ -c -MMD $< -o $@
+	$(CXX) $(CXXFLAGS) -x c++ -c $< -o $@
 
 $(SYSTEM_HEADERS_OBJECTS):
 	$(CXX) $(CXXFLAGS) -x c++-system-header $(SYSTEM_HEADERS)

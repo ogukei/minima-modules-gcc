@@ -1,6 +1,4 @@
 
-module;
-
 module b;
 
 import a;

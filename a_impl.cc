@@ -1,6 +1,4 @@
 
-module;
-
 module a;
 
 int foo() {
