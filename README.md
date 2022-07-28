@@ -3,6 +3,8 @@
 
 A minimal Makefile setup example to build C++20 Modules with gcc-11
 
+also available [Clang version](https://github.com/ogukei/minima-modules-clang)
+
 ## Prerequisites
 
 Ubuntu 20.04 LTS
